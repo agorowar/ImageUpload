@@ -1,0 +1,6 @@
+<h1>Image Upload</h1>
+<a href="imageUpload">upload</a>   
+<!-- each image from database is shown here-->
+{{#each images}}
+<img src="/userimages/{{this.fileName}}">
+{{/each}}
